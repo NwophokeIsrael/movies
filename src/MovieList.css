@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(235, 241, 238);
+}
+
+.movie-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+
+.movies {
+    flex: 1;
+    margin: 5px;
+    width: min-content;
+    width: 343px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.text{
+    background-color: blueviolet;
+}
